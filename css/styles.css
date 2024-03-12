@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+}
+.w-full {
+  width: 100%;
+}
+#navbarSupportedContent {
+  margin-top: 10px;
+  background-color: #fff;
+}
+#navbarSupportedContent ul li {
+  border-bottom: 1px solid #eee;
+}
+#navbarSupportedContent ul li a {
+  text-align: center;
+}
+.navbar {
+  background: #eee;
+  opacity: 1;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+.card {
+  border: none;
+  background-color: #eee;
+  padding: 0.5rem 1rem;
+}
+h1 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+p {
+  text-align: justify;
+}
+@media (min-width: 575px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  section {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
